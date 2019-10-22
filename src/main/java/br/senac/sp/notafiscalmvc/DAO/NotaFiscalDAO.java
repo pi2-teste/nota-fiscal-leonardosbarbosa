@@ -22,6 +22,7 @@ public class NotaFiscalDAO {
         for (int i = 0; i < listaNotas.size(); i++) {
             NotaFiscal get = listaNotas.get(i);
             System.out.println(get.getNumNota());
+            System.out.println(get.getNomeProduto());
             System.out.println(get.getValNota());
             
         }
